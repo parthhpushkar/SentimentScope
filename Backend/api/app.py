@@ -19,9 +19,7 @@ CORS(app)
 
 #load model
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-model_path = os.path.join(BASE_DIR, "../model/saved_model")
+model_path = "parthhpushkar/sentimentscope-bert"
 
 tokenizer = BertTokenizer.from_pretrained(model_path)
 
