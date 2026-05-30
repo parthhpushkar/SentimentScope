@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+results/
+logs/
+*.pt
+*.bin
+Backend/model/saved_model/
+*.safetensors
+*.bin
